@@ -40,7 +40,7 @@
         <div class="digits__table">
           <div class="table__cell">
             <h3 class="cell__header h3_digits">86 миллиардов</h3>
-            <p class="cell__text h4_digits">Число нейронов в мозге человека</p>
+            <h4 class="cell__text h4_digits">Число нейронов в мозге человека</p>
           </div>
           <div class="table__cell">
             <h3 class="cell__header h3_digits">2.1 миллиарда</h3>
@@ -62,15 +62,15 @@
           </div>
           <div class="table__cell">
             <h3 class="cell__header h3_digits">17–20 лет</h3>
-            <h4 class="cell_text h4_digits">Пик обучаемости</h4>
+            <h4 class="cell__text h4_digits">Пик обучаемости</h4>
           </div>
           <div class="table__cell">
             <h3 class="cell__header h3_digits">1885 год</h3>
-            <h4 class="cell_text h4_digits">Открытие кривой забывания</h4>
+            <h4 class="cell__text h4_digits">Открытие кривой забывания</h4>
           </div>
           <div class="table__cell">
             <div class="cell__header"><h3 class="h3 h3_digits">1889 год</h3></div>
-            <div class="cell_text"><h4 class="h4 h4_digits">Открытие условного рефлекса</h4></div>
+            <div class="cell__text"><h4 class="h4 h4_digits">Открытие условного рефлекса</h4></div>
           </div>
         </div>
       </section>
@@ -78,7 +78,7 @@
       <section class="feynman">
         <div class="feynman__title"><h1 class="h1 h1_feynman">Методы Фейнмана</h1></div>
         <div class="feynman__subtitile"><h2 class="h2 h2_feynman">Выучить и не забыть.</h2></div>
-        <div class="feynman__link"><h2 class="h2 h2_feynman link">Подробнее -></h2></div>
+        <div class="feynman__link"><a class="h2 h2_feynman link" href="#">Подробнее -></a></div>
         <div class="feynman__photo"><img class="feynman__photo" src="./images/feynman.png" alt="feynman"></div>
       </section>
 
@@ -127,10 +127,34 @@
             <div class="cell__text"><h4 class="h4 h4_kaufman">Уделяйте внимание количеству и скорости.</h4></div>
           </div>
         </div>
+        <div class="kaufman__triangle">
+          <img class="kaufman__triangle_image" src="./images/kaufman-triangle.svg" alt="kaufman-triangle">
+        </div>
       </section>
     </main>
     <footer class="footer">
-
+      <div class="footer__columns">
+        <div class="footer__column footer__column_content_copyright">
+          <img class="footer__logo" src="images/logo_place_footer.svg" alt="logo__footer">
+          <div class="footer__author"><p class="footer__author-text">&COPY; Сырейщиков Артемий</p></div>
+        </div>
+        <div class="footer__column footer__column_content_info">
+          <div class="footer__column-heading"><h3 class="footer__column-heading-text">О Практикуме</h3></div>
+          <div class="footer__column-links">
+            <a class="footer__column-link" href="#">Главная</a>
+            <a class="footer__column-link" href="#">Концепция</a>
+            <a class="footer__column-link" href="#">Наставники</a>
+          </div>
+        </div>
+        <div class="footer__column footer__column_content_social">
+          <div class="footer__column-heading"><h3 class="footer__column-heading-text">Соцсети</h3></div>
+          <div class="footer__column-links">
+            <a class="footer__column-link" href="#"><img class="footer__social-icon" src="images/youtube_color_white.svg" alt="Logo yt">YouTube</a>
+            <a class="footer__column-link" href="#"><img class="footer__social-icon" src="images/vk_color_white.svg" alt="Logo vk">ВКонтакте</a>
+            <a class="footer__column-link" href="#"><img class="footer__social-icon" src="images/tiktok_color_white.svg" alt="Logo tt">TikTok</a>
+          </div>
+        </div>
+      </div>  
     </footer>
   </div>
 </body>

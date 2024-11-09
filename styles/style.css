@@ -251,7 +251,7 @@ div{
   display: flex;
   position: relative;
   flex-direction: column;
-  height: 81vh;
+  height: 890px;
   background-color: #f2f2f2;;
 }
 
@@ -320,7 +320,7 @@ div{
 .kaufman__subtitile{
   width: 60%;
   margin-top: 20px;
-}
+} 
 
 .h2_kaufman{
   color: white;
@@ -335,6 +335,8 @@ div{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  z-index: 1;
+  margin-bottom: 90px;
 }
 
 .h3_kaufman{
@@ -356,4 +358,90 @@ div{
   color: white; 
   margin-right: 0; 
   margin-top: 80px; 
+  z-index: 1;
+}
+
+.kaufman__triangle{
+  overflow: hidden;
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: 0;
+}
+
+.kaufman__triangle_image{
+  margin: 0;
+  width: 101%;
+}
+
+.footer{
+  display: flex;
+  min-height: 350px;
+  background-color: #1f1f1f;
+}
+
+.footer__columns{
+  display: flex;
+  padding: 0;
+  margin: 60px auto 40px;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 711px;  
+  justify-content: space-between;
+}
+
+.footer__logo{
+  height: 32px;
+  width: 228px;
+}
+
+.footer__author{
+  margin:18px 0;
+}
+
+.footer__author-text{
+  margin: 0;
+  color:white
+}
+
+.footer__column-heading{
+
+}
+
+.footer__column-heading-text{
+  color: white;
+  margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-links{
+  display: flex;
+  flex-direction: column;
+  /* justify-content:space-between; */
+  /* gap: 7px; */
+  margin: 20px auto 16px;
+  
+}
+
+.footer__column-link{
+  color: white;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__social-icon{
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
